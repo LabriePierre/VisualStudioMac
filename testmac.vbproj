@@ -36,5 +36,8 @@
     <Compile Include="Application.vb" />
     <Compile Include="AssemblyInfo.vb" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="TestXmlFile.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
 </Project>
